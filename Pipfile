@@ -6,6 +6,9 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
+gunicorn = "==19.9.0"
+django = "*"
+django-rest-framework = "*"
 iterapi = "*"
 
 [requires]

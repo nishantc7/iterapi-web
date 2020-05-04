@@ -1,13 +1,12 @@
-from django.shortcuts import render
-from rest_framework.views import APIView
 from rest_framework import generics
 from rest_framework.response import Response
 from iterapi import Student
 from rest_framework.parsers import JSONParser
 from main.serializer import UserSerializer
 
-# Create your views here.
+
 class MainView(generics.CreateAPIView):
+
     parser_classes = [JSONParser]
     serializer_class = UserSerializer
 
@@ -39,4 +38,3 @@ class InfoView(generics.CreateAPIView):
         password = request.data['password']
         st = Student(user_id, password)
         return Response(st.getInfo())
-
