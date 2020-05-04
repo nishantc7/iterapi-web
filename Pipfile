@@ -10,6 +10,7 @@ gunicorn = "==19.9.0"
 django = "*"
 django-rest-framework = "*"
 iterapi = "*"
+django-heroku = "*"
 
 [requires]
 python_version = "3.8"
