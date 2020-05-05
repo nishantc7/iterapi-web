@@ -2,7 +2,7 @@
 
 This is [iterapi](https://github.com/SubhrajitPrusty/iterapi) , REST port.  
 
-run using `python manage.py runserver'  
+run using `python manage.py runserver`  
 endpoints FOR POST :  
   
   `
