@@ -1,5 +1,5 @@
 # iterapi-web
-Using Django-Rest-Framework 
+
 This is a [iterapi](https://github.com/SubhrajitPrusty/iterapi) , REST port to make http requests and fetch data for the student portal of ITER  
   
 endpoints FOR POST :  
@@ -19,5 +19,6 @@ POST `https://iterapi-web.herokuapp.com/result/` with json body as:
 }`  
   
 Request to other endpoints can be made using the same json body with or without mentioning semester.  
+Made using Django-Rest-Framework  
 
 
