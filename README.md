@@ -5,8 +5,9 @@ This is a [iterapi](https://github.com/SubhrajitPrusty/iterapi) , REST port to m
 endpoints FOR POST :  
   
 * /attendence/
-* /result/
-* /info/
+* /result/ - getDetailedResult()
+* /info/ 
+* /cgpa/ - getResult()
   
 Example request  
 
