@@ -38,3 +38,13 @@ class InfoView(generics.CreateAPIView):
         password = request.data['password']
         st = Student(user_id, password)
         return Response(st.getInfo())
+
+class CgpaView(generics.CreateAPIView):
+    parser_classes = [JSONParser]
+    serializer_class = UserSerializer
+
+    def post(self, request):
+        user_id = request.data['user_id']
+        password = request.data['password']
+        st = Student(user_id, password)
+        return Response(st.getResult())
